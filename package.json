@@ -1,0 +1,27 @@
+{
+  "name": "datatables-express-restify-mongoose-boilerplate",
+  "version": "1.0.0",
+  "description": "datatables-express-restify-mongoose-boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-sample-data": "node scripts/generate-sample-data.js > sample-data/sample-data.tsv",
+    "init-db": "sh scripts/init-db.sh",
+    "init": "npm run init-sample-data && npm run init-db",
+    "prestart": "npm run init",
+    "start": "node server.js"
+  },
+  "author": "Gagan Bansal",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "express-restify-mongoose": "^5.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
