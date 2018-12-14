@@ -1,5 +1,5 @@
 # datatables-express-restify-mongoose-boilerplate
-It is a simple boilerplate with these two wonderfull libraries [DataTables](https://github.com/DataTables/DataTables) and [express-restify-mongoose](https://github.com/florianholzapfel/express-restify-mongoose).
+It is a simple boilerplate with these two wonderfull libraries [DataTables](https://github.com/DataTables/DataTables), [CellEdit](https://github.com/ejbeaty/CellEdit) a plugin for DataTables and [express-restify-mongoose](https://github.com/florianholzapfel/express-restify-mongoose).
 
 Idea is to visualize and edit data in browser thats stored in Mongo with rest API.
 
